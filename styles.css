@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.game-container {
+  font-family: "Permanent Marker";
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 0 0 2px;
+}
+.cell {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 14px;
+  user-select: none;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.game-controls {
+  text-align: center;
+  margin: 20px;
+}
+
+#turn {
+  font-size: 30px;
+}
